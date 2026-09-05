@@ -1,0 +1,13 @@
+
+
+
+/* Make sizing predictable across the whole page */ * {     box-sizing: border-box; }
+/* Base page font and colour scheme */ body {     margin: 0;     padding: 24px;     font-family: Calibri, Arial, sans-serif;     color: #17213B;     background-color: #f5f7fa;     line-height: 1.6; }
+/* Main page container */ .profile-page {     max-width: 800px;     margin: 0 auto; }
+/* Reusable card class */ .card {     width: 100%;     padding: 16px;     border: 1px solid #d0d7de;     margin-bottom: 12px;     background-color: white;     border-radius: 6px; }
+/* Heading styles */ h1 {     font-size: 28px;     font-weight: bold;     margin-top: 0;     margin-bottom: 8px; }
+h2 {     font-size: 20px;     font-weight: bold;     margin-top: 0;     margin-bottom: 8px; }
+/* Paragraph styling */ p {     font-size: 16px;     margin-top: 0;     margin-bottom: 10px; }
+/* BEM-style title selector, as demonstrated in the lesson */ .card__title {     font-size: 20px;     font-weight: bold;
+}
+
